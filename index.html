@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+    <title>knockout the fighter</title>
+</head>
+
+<body>
+    <!-- first screen -->
+    <div class="screen">
+        <h1>shoot the fighter</h1>
+        <button class="btn" id='start-btn'>Play Game</button>
+    </div>
+
+    <!-- second screen -->
+
+    <div class="screen">
+        <h1>which mma fighter you want to fight?</h1>
+        <ul class='fighters-list'>
+            <li>
+                <button class="choose-fighter-btn">
+                    <p>Khabib</p>
+                    <img src="images/khabib.PNG" alt="" />
+                </button>
+            </li>
+            <li>
+                <button class="choose-fighter-btn">
+                    <p>Adsenya</p>
+                    <img src="images/adsenya.PNG" alt="" />
+                </button>
+            </li>
+            <li>
+                <button class="choose-fighter-btn">
+                    <p>Mcgregor</p>
+                    <img src="images/mcggregor.PNG" alt="" />
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <!-- third screen -->
+
+    <div class="screen game-container" id='game-container'>
+        <h3 id="time">Time: 00:00</h3>
+        <h3 id="score">Score:0</h3>
+        <h5 id="message">Are you tired yet?<br>
+            <br>
+            You are playing a mma fight game
+        </h5>
+        <!-- <div class="fighter">
+            <img src='images/khabib.PNG' alt='' />
+        </div> -->
+    </div>
+    <script type="text/javascript" src='script.js'></script>
+</body>
+
+</html>
